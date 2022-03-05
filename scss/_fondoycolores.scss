@@ -26,9 +26,9 @@
     margin-right: 0.5%;
 }
 
-$ColorAcua:rgba(28, 253, 178, 0.719)!important;
+$ColorAcua:rgba(28, 253, 178, 0.719);
 
-$SinColor:rgba(255, 255, 255, 0)!important;
+$SinColor:rgba(255, 255, 255, 0);
 
 $Chicle:rgba(210, 106, 241, 0.68);
 
@@ -38,11 +38,11 @@ $sombra:rgb(0, 0, 0);
 
 
 .sin_color{
-    background-color:$SinColor;
+    background-color:$SinColor!important;
 }
 
 .color_aqua{
-    background-color: $ColorAcua;
+    background-color: $ColorAcua!important;
 }
 
 
