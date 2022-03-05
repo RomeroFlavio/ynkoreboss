@@ -1,5 +1,5 @@
 .estilo{
-    background: rgba(210, 106, 241, 0.68);
+    background: $Chicle;
     width: 10px 21px!important;
     border-radius: 9px!important;
     margin: 0% 1% 0% 1%;
@@ -10,7 +10,7 @@
     width: 10px 21px!important;
     border-radius: 9px!important;
     margin: 0% 1% 0% 1%;
-    background: rgb(205, 117, 231);
+    background: $Titulo;
     border: none;
     text-align: center;
     cursor: pointer;
@@ -18,10 +18,10 @@
 }
 
 .estilo:hover {
-    box-shadow: 7px 5px 25px 1px #000000;
+    box-shadow: 7px 5px 25px 1px rgb(0, 0, 0);
 }
 
 .estilo:active {
     transform: scale(0.97);
-    box-shadow: 7px 5px 25px -10px #000000;
+    box-shadow: 7px 5px 25px -10px $sombra;
 }

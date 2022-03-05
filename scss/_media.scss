@@ -1,88 +1,89 @@
 @media only screen and (min-width:320px) and (max-width: 490px){
 
-    .no_sticky{
-        position: relative;
-    }
+.no_sticky{
+    position: relative;
+}
     
-    .caja2{
-        order: 3;
-    }
+.caja2{
+    order: 3;
+}
     
-    .color_boton{
-        background-color:rgba(255, 255, 255, 0)
-    }
+.color_boton{
+    background-color:$SinColor;
+}
     
-    .posicion{
-        display: flex!important;
-        flex-direction: column!important;
-    }
+.posicion{
+    display: flex!important;
+    flex-direction: column!important;
+}
     
-    .media{
-        width: 95%;
-        margin: auto;
-    }
+.media{
+    width: 95%;
+    margin: auto;
+}
     
-    .estilo{
-        width: 10px 21px!important;
-        border-radius: 9px!important;
-        margin: 0% 1% 0% 1%;
-        background: rgb(205, 117, 231);
-        border: none;
-        text-align: center;
-        cursor: pointer;
-        transition: 0.4s;
-    }
+.estilo{
+    width: 10px 21px!important;
+    border-radius: 9px!important;
+    margin: 0% 1% 0% 1%;
+    background: $Titulo;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
     
-    .img_qs{
-        width: 280px;
-    }
+.img_qs{
+    width: 280px;
+}
     
-    .campos2{
-        width: 100%;
-    }
+.campos2{
+    width: 100%;
+}
     
-    }
+}
 
 
-    @media only screen and (min-width: 491px) and (max-width: 991px){
+@media only screen and (min-width: 491px) and (max-width: 991px){
     
-    .no_sticky{
-         position: relative;
+.no_sticky{
+    position: relative;
     }
         
-    .caja2{
-        order: 3;
-    }
+.caja2{
+    order: 3;
+}
     
-    .posicion{
-        display: flex;
-        flex-direction: column;
-    }
+.posicion{
+    display: flex;
+    flex-direction: column;
+}
     
-    .media{
-        width: 60%;
-        margin: auto;
-    }
+.media{
+    width: 60%;
+    margin: auto;
+}
     
-    .img_qs{
-        width: 280px;
-    }
+.img_qs{
+    width: 280px;
+}
     
-    }
+}
 
-    @media only screen and (min-width: 992px) and (max-width: 1140px){
+
+@media only screen and (min-width: 992px) and (max-width: 1140px){
     
-    .img_qs{
-        width: 400px;
-    }
+.img_qs{
+    width: 400px;
+}
     
-    .posicion{
-        display: flex!important;
-        flex-direction: column!important;
-    }
+.posicion{
+    display: flex!important;
+    flex-direction: column!important;
+}
     
-    .campos2{
-        width: 100%;
-    }
+.campos2{
+    width: 100%;
+}
     
-    }
+}
