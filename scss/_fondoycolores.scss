@@ -36,18 +36,18 @@ $Titulo:rgb(205, 117, 231);
 
 $sombra:rgb(0, 0, 0);
 
-/*.color_aqua{
-    background-color: rgba(28, 253, 178, 0.719)!important;
+.color_aqua{
+    background-color: $ColorAcua!important;
 }
 
 .sin_color{
-    background-color:rgba(255, 255, 255, 0)!important;
+    background-color:$SinColor!important;
 }
 
 .chicle{
-    background: rgba(210, 106, 241, 0.68);
+    background: $Chicle;
 }
 
 .titulo{
-    background: rgb(205, 117, 231);
-}*/
+    background: $Titulo;
+}

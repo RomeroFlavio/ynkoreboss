@@ -20,21 +20,18 @@
   margin-left: 0.5%;
   margin-right: 0.5%; }
 
-/*.color_aqua{
-    background-color: rgba(28, 253, 178, 0.719)!important;
-}
+.color_aqua {
+  background-color: rgba(28, 253, 178, 0.719) !important !important; }
 
-.sin_color{
-    background-color:rgba(255, 255, 255, 0)!important;
-}
+.sin_color {
+  background-color: rgba(255, 255, 255, 0) !important !important; }
 
-.chicle{
-    background: rgba(210, 106, 241, 0.68);
-}
+.chicle {
+  background: rgba(210, 106, 241, 0.68); }
 
-.titulo{
-    background: rgb(205, 117, 231);
-}*/
+.titulo {
+  background: #cd75e7; }
+
 .estilo {
   background: rgba(210, 106, 241, 0.68);
   width: 10px 21px !important;
@@ -46,7 +43,7 @@
   width: 10px 21px !important;
   border-radius: 9px !important;
   margin: 0% 1% 0% 1%;
-  background: rgb(205, 117, 231);
+  background: #cd75e7;
   border: none;
   text-align: center;
   cursor: pointer;
