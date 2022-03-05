@@ -1,0 +1,51 @@
+.fondo{
+    width: 100%;
+    background-image: url("../assets/images/logo/fondo_index.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.marpad{
+    margin: 1% 0% 1% 0%;
+    padding: 1%;
+}
+
+.borde{
+    border-radius: 5px;
+}
+
+.mar{
+    margin: 1% 0% 1% 0%;
+}
+
+.mar2{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+/*
+$ColorAcua:rgba(28, 253, 178, 0.719)!important;
+
+$SinColor:rgba(255, 255, 255, 0)!important;
+
+$Chicle:rgba(210, 106, 241, 0.68);
+
+$Titulo:rgb(205, 117, 231);*/
+
+.color_aqua{
+    background-color: rgba(28, 253, 178, 0.719)!important;
+}
+
+.sin_color{
+    background-color:rgba(255, 255, 255, 0)!important;
+}
+
+.chicle{
+    background: rgba(210, 106, 241, 0.68);
+}
+
+.titulo{
+    background: rgb(205, 117, 231);
+}

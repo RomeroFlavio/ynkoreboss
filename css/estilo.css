@@ -1,0 +1,140 @@
+.fondo {
+  width: 100%;
+  background-image: url("../assets/images/logo/fondo_index.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.marpad {
+  margin: 1% 0% 1% 0%;
+  padding: 1%; }
+
+.borde {
+  border-radius: 5px; }
+
+.mar {
+  margin: 1% 0% 1% 0%; }
+
+.mar2 {
+  margin-left: 0.5%;
+  margin-right: 0.5%; }
+
+/*
+$ColorAcua:rgba(28, 253, 178, 0.719)!important;
+
+$SinColor:rgba(255, 255, 255, 0)!important;
+
+$Chicle:rgba(210, 106, 241, 0.68);
+
+$Titulo:rgb(205, 117, 231);*/
+.color_aqua {
+  background-color: rgba(28, 253, 178, 0.719) !important; }
+
+.sin_color {
+  background-color: rgba(255, 255, 255, 0) !important; }
+
+.chicle {
+  background: rgba(210, 106, 241, 0.68); }
+
+.titulo {
+  background: #cd75e7; }
+
+.estilo {
+  background: rgba(210, 106, 241, 0.68);
+  width: 10px 21px !important;
+  border-radius: 9px !important;
+  margin: 0% 1% 0% 1%;
+  text-align: center; }
+
+.estilo:hover {
+  width: 10px 21px !important;
+  border-radius: 9px !important;
+  margin: 0% 1% 0% 1%;
+  background: #cd75e7;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s; }
+
+.estilo:hover {
+  box-shadow: 7px 5px 25px 1px #000000; }
+
+.estilo:active {
+  transform: scale(0.97);
+  box-shadow: 7px 5px 25px -10px #000000; }
+
+@media only screen and (min-width: 320px) and (max-width: 490px) {
+  .no_sticky {
+    position: relative; }
+  .caja2 {
+    order: 3; }
+  .color_boton {
+    background-color: rgba(255, 255, 255, 0); }
+  .posicion {
+    display: flex !important;
+    flex-direction: column !important; }
+  .media {
+    width: 95%;
+    margin: auto; }
+  .estilo {
+    width: 10px 21px !important;
+    border-radius: 9px !important;
+    margin: 0% 1% 0% 1%;
+    background: #cd75e7;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s; }
+  .img_qs {
+    width: 280px; }
+  .campos2 {
+    width: 100%; } }
+
+@media only screen and (min-width: 491px) and (max-width: 991px) {
+  .no_sticky {
+    position: relative; }
+  .caja2 {
+    order: 3; }
+  .posicion {
+    display: flex;
+    flex-direction: column; }
+  .media {
+    width: 60%;
+    margin: auto; }
+  .img_qs {
+    width: 280px; } }
+
+@media only screen and (min-width: 992px) and (max-width: 1140px) {
+  .img_qs {
+    width: 400px; }
+  .posicion {
+    display: flex !important;
+    flex-direction: column !important; }
+  .campos2 {
+    width: 100%; } }
+
+.foto {
+  width: 300px !important;
+  margin: auto; }
+
+.logos_svg {
+  width: 40px; }
+
+.logos_svg2 {
+  width: 45px; }
+
+.logo_ink {
+  width: 100px; }
+
+.foto_art {
+  width: 300px; }
+
+.tam_img {
+  width: 210px;
+  height: 235px;
+  margin: auto;
+  padding: auto; }
+
+.img_qs {
+  width: 450px; }
