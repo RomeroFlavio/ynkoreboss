@@ -32,14 +32,38 @@
 .titulo {
   background: #cd75e7; }
 
-.estilo {
+.colorPrimario {
+  background-color: rgba(28, 253, 178, 0.719) !important; }
+
+.colorSecundario {
+  background-color: rgba(210, 106, 241, 0.68); }
+
+.titulo {
+  background-color: #cd75e7; }
+
+.sombra {
+  background-color: black; }
+
+.sincolor {
+  background-color: rgba(255, 255, 255, 0) !important; }
+
+main.index {
+  align-items: center; }
+  main.index div.dimencion-main {
+    margin: 1% 0% 1% 0%;
+    padding: 1%;
+    border-radius: 5px; }
+    main.index div.dimencion-main div.div-div-1-main {
+      align-items: center; }
+
+.estilo, .boton {
   background: rgba(210, 106, 241, 0.68);
   width: 10px 21px !important;
   border-radius: 9px !important;
   margin: 0% 1% 0% 1%;
   text-align: center; }
 
-.estilo:hover {
+.estilo:hover, .boton:hover {
   width: 10px 21px !important;
   border-radius: 9px !important;
   margin: 0% 1% 0% 1%;
@@ -49,10 +73,10 @@
   cursor: pointer;
   transition: 0.4s; }
 
-.estilo:hover {
+.estilo:hover, .boton:hover {
   box-shadow: 7px 5px 25px 1px black; }
 
-.estilo:active {
+.estilo:active, .boton:active {
   transform: scale(0.97);
   box-shadow: 7px 5px 25px -10px black; }
 
@@ -69,7 +93,7 @@
   .media {
     width: 95%;
     margin: auto; }
-  .estilo {
+  .estilo, .boton {
     width: 10px 21px !important;
     border-radius: 9px !important;
     margin: 0% 1% 0% 1%;

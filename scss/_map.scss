@@ -1,0 +1,39 @@
+$coloresBG:(
+	colorPrimario:rgba(28, 253, 178, 0.719)!important,
+	colorSecundario:rgba(210, 106, 241, 0.68),
+	titulo:rgb(205, 117, 231),
+	sombra:rgb(0, 0, 0),
+	sincolor:rgba(255, 255, 255, 0)!important,
+
+);
+
+@each $tinte, $color in $coloresBG{
+	.#{$tinte}{
+		background-color: $color;
+	}
+}
+
+
+$dimencion:(
+    centro:center,
+    borde: 5px,
+    margen: 1% 0% 1% 0%,
+    margen2: 0.5%,
+    margen3: 1%,
+);
+
+main.index{
+    align-items: map-get($dimencion , centro);
+        div.dimencion-main{
+            margin: 1% 0% 1% 0%;
+            padding: 1%;
+            border-radius: map-get($dimencion, borde);
+                div.div-div-1-main{
+                    align-items: map-get($dimencion , centro);
+                }
+        }
+}
+
+.boton{
+    @extend .estilo;
+}
