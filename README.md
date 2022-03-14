@@ -1,0 +1,1 @@
+Se creo un archivo llamado "_map.scss" en el cual se trabajo lo pedido en el proyecto "map" "map-get" "mixin" "extend", los mismo solo fueron aplicados sobre el "index.html", se agrego nesting solicitado en la correccion de la entrega anterior, los metas "key.", "descr." y se modifico los "title" de cada pagina.
