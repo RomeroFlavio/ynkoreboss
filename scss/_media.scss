@@ -1,20 +1,49 @@
-@media only screen and (min-width:320px) and (max-width: 490px){
+@media only screen and (min-width:320px) and (max-width: 479px){
+    .no_sticky{
+        position: relative;
+    }
+
+    .pos-col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .caja2{
+        order: 3;
+    }
+
+    .color_boton{
+        background-color:$SinColor;
+    }
+
+    .campos{
+        width: 100%;
+    }
+
+    .form-tam{
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (min-width:480px) and (max-width: 599px){
 
 .no_sticky{
     position: relative;
 }
     
-.caja2{
-    order: 3;
-}
-    
-.color_boton{
-    background-color:$SinColor;
-}
-    
 .posicion{
     display: flex!important;
-    flex-direction: column!important;
+    flex-direction: row!important;
+}
+
+.pos-fo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
     
 .media{
@@ -40,50 +69,64 @@
 .campos2{
     width: 100%;
 }
+
+.campos{
+    width: 100%;
+}
+
+.form-tam{
+    width: 80%;
+}
     
 }
 
 
-@media only screen and (min-width: 491px) and (max-width: 991px){
+@media only screen and (min-width: 600px) and (max-width: 768px){
     
 .no_sticky{
     position: relative;
-    }
-        
-.caja2{
-    order: 3;
-}
-    
-.posicion{
-    display: flex;
-    flex-direction: column;
 }
     
 .media{
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
     
 .img_qs{
     width: 280px;
 }
+.campos{
+    width: 100%;
+}
+
+.form-tam{
+    width: 80%;
+}
     
 }
 
 
-@media only screen and (min-width: 992px) and (max-width: 1140px){
+@media only screen and (min-width: 992px){
     
 .img_qs{
     width: 400px;
 }
     
-.posicion{
-    display: flex!important;
-    flex-direction: column!important;
-}
-    
 .campos2{
     width: 100%;
+}
+
+.media{
+    width: 40%;
+    margin: auto;
+}
+    
+.campos{
+    width: 100%;
+}
+
+.form-tam{
+    width: 80%;
 }
     
 }
